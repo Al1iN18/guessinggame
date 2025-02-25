@@ -40,16 +40,7 @@ class GuessingGame(EasyFrame):
         self.hint ["text"] = greeting
         self.guess_field.setNumber(0)
         self.next_btn["state"] = "normal"
-        #def checkanswer()
-        #    if guess == keynumber print ("You have won!")
-        #    elif guess > keynumber print "guess again! your guess is to high"
-        #    elif guess < keynumber print "guess again! your guess is to low"
-
-        #2nd label with input button
-        #function that takes guess match it with random and print a or b
-        # make select a random number and save into keynumber
-        #   
-        # count each loop and save into a final guessing count
+       
 
 def main():
     GuessingGame().mainloop()
